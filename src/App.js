@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import almabetter from './assets/almabetter.png';
+
+//import component
+import { MainBody } from './components/mainbody/MainBody';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    //This top level div contain navbar and mainbody div.....
+    <div className=" bg-slate-200 ">
+
+      {/* This is navbar with an almabetter logo */}
+      <div className='bg-white min-w-full drop-shadow-md p-3 h-12'>
+        <div className='mx-2'>
+          <img className='h-6' src={almabetter} alt='almabetter' />
+        </div>
+      </div>
+
+      {/* This is the main body of crypto-dashboard */}
+      <div>
+        <MainBody />
+      </div>
     </div>
   );
 }
