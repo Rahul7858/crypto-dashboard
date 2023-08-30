@@ -27,7 +27,6 @@ export const CoinDropDown = () => {
 
       {/* dropdown menu for coins.. */}
       <select className='h-10 bg-slate-100 text-center px-2 rounded-lg font-medium focus:outline-none drop-shadow-md' onChange={handleCoin} ref={ref} value={currentCoin}>
-      <option selected disabled hidden>Loading...</option>
         {
           coins.map((item) => {
             return <option key={item.symbol} value={item.id}>{item.name}</option>

@@ -100,7 +100,7 @@ export const ExchangeCoin = () => {
 
                             {/* dropdown for sell coin */}
                             <select className='bg-slate-100 h-10 font-semibold rounded-md shadow-sm w-[150px] focus:outline-none' onChange={(e) => setSellCoin(e.target.value)} value={sellCoin}>
-                                <option selected disabled hidden>Loading...</option>
+                                
                                 {
                                     list.map((item, index) => {
                                         return <option key={index}>{item.value}</option>
@@ -115,7 +115,7 @@ export const ExchangeCoin = () => {
 
                             {/* dropdown for buy coin */}
                             <select className='bg-slate-100 h-10 font-semibold rounded-md shadow-sm w-[150px] focus:outline-none' onChange={(e) => setBuyCoin(e.target.value)} value={buyCoin}>
-                                <option selected disabled hidden>Loading...</option>
+                                
                                 {
                                     list.map((item, index) => {
                                         return <option key={index}>{item.value}</option>
