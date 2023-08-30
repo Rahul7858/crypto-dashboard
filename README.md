@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+# Project Name
+ cryptocurrency dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+ 
+# About this app
+ Cryptocurrency dashboard is an application that uses the coinGecko API and displays the data and charts.This was a capstone project built during AlmaBetter training.
 
 ### `npm start`
 
