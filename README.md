@@ -18,11 +18,12 @@
  coingecko API
 
 # Screenshot of project:-
-![Screenshot 2023-08-30 110702](https://github.com/Rahul7858/crypto-dashboard/assets/135803770/622dbaa4-bacc-4df0-9080-b091807d427a)
-![Screenshot 2023-08-30 110625](https://github.com/Rahul7858/crypto-dashboard/assets/135803770/966f7075-b233-4230-82b9-8a50e0c0a77c)
-![Screenshot 2023-08-30 110551](https://github.com/Rahul7858/crypto-dashboard/assets/135803770/0ac0e682-a397-4e7b-95a2-ab9e4f1207d5)
-![Screenshot 2023-08-30 110520](https://github.com/Rahul7858/crypto-dashboard/assets/135803770/d458e68f-92c4-469f-88b3-d7420c9f021b)
+
 ![Screenshot 2023-08-30 110445](https://github.com/Rahul7858/crypto-dashboard/assets/135803770/05f9b34d-c25f-48c3-81ad-9bc8c5f3b74b)
+![Screenshot 2023-08-30 110520](https://github.com/Rahul7858/crypto-dashboard/assets/135803770/d458e68f-92c4-469f-88b3-d7420c9f021b)
+![Screenshot 2023-08-30 110551](https://github.com/Rahul7858/crypto-dashboard/assets/135803770/0ac0e682-a397-4e7b-95a2-ab9e4f1207d5)
+![Screenshot 2023-08-30 110625](https://github.com/Rahul7858/crypto-dashboard/assets/135803770/966f7075-b233-4230-82b9-8a50e0c0a77c)
+![Screenshot 2023-08-30 110702](https://github.com/Rahul7858/crypto-dashboard/assets/135803770/622dbaa4-bacc-4df0-9080-b091807d427a)
 
 
 # What can the user do?
