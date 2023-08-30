@@ -39,10 +39,10 @@ export const HorizontalBarChart = () => {
 
     const dispatch = useDispatch();
 
-     //dispatch the action to fetch chart data
+     //dispatch the action to fetch chart data 
     useEffect(() => {
         dispatch(fetchAsyncCharts({ coin: coin, currency: currency, time: day }))
-    }, [coin, currency, day])
+    }, [ dispatch,coin, currency, day])
 
 
     //This function takes a number and returns its compact value

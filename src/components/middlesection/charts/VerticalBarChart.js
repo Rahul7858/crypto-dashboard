@@ -42,7 +42,7 @@ export const VerticalBarChart = () => {
     //dispatch the action to fetch chart data
     useEffect(() => {
         dispatch(fetchAsyncCharts({ coin: coin, currency: currency, time: day }))
-    }, [coin,currency, day])
+    }, [dispatch,coin,currency, day])
 
     //This function takes a number and returns its compact value
     // Ex : 1500000 => 1.5M

@@ -47,6 +47,6 @@ export const MiddleSection = () => {
           chart === 'LineChart' ? (<LineChart />) : chart === 'HorizontalBarChart' ? (<HorizontalBarChart />) : (<VerticalBarChart />)
         }
       </div>
-    </div>
+    </div> 
   )
 }

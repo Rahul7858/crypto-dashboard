@@ -1,5 +1,5 @@
 //imports reactHooks
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux/es/hooks/useSelector';
 

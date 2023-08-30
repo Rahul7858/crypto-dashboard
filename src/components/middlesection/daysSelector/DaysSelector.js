@@ -16,7 +16,7 @@ export const DaysSelector = () => {
   //This clickHandler Function dispatch the action on selectDay...
   function clickHandler(event) {
     dispatch(selectDay(event.target.value))
-  }
+  } 
 
   return (
     <div>

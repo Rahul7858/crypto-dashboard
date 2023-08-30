@@ -19,7 +19,7 @@ export const CoinDropDown = () => {
   function handleCoin(e) {
     e.preventDefault();
     const val = ref.current.value;
-    dispatch(selectCoin(val));
+    dispatch(selectCoin(val)); 
   }
 
   return (
