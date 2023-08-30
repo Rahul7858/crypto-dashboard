@@ -1,69 +1,52 @@
 # Project Name
- cryptocurrency dashboard
+ Almabetter cryptocurrency dashboard
 
  
 # About this app
  Cryptocurrency dashboard is an application that uses the coinGecko API and displays the data and charts.This was a capstone project built during AlmaBetter training.
 
-### `npm start`
+# Library i used in this project:-
+1) react js
+2) react redux/redux toolkit
+3) redux thunk
+4) chart js
+5) react chart js2
+6) axios
+7) tailwind css
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# API i used in this project:-
+ coingecko API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Folder structure:-
+ 
+|-- App.js   
+|   |-- Navbar
+|   |-- mainBody
+|   |   |--MainBody.js -------------------------------|
+|   |      |-- CurrencyDropDown.js                    |
+|   |      |-- SearchBar.js                           |
+|   |      |-- MiddleSection                          |
+|   |      |   |-- MiddleSection.js                   |
+|   |      |       |-- daysSelector                   |
+|   |      |       |   |-- DaysSelector.js            |
+|   |      |       |-- coindropdown                   |------(All inside components folders)
+|   |      |       |   |-- CoinDropDown.js            |
+|   |      |       |-- charts                         |
+|   |      |           |-- HorizontalBarChart.js      |
+|   |      |           |-- LineChart.js               |
+|   |      |           |-- VerticalBarChart.js        |
+|   |      |-- Portfolio.js                           |
+|   |      |-- ExchangeCoin.js                        |
+|   |      |-- TrendingCoin.js                        |
+|-- ...|----------------------------------------------|
 
-### `npm test`
+# What can the user do?
+1) User can select the type of currency like inr,usd and eur.
+2) User can search types of cryptocurrencies.
+3) user can view past and current prices of crypto by clicking on days buttons.
+4) User can select type of charts.
+5) user can view data visuals through dynamic graphs
+6) Asidebar indicate the market cap and profit/loss of the cryptocurrencies in the past 24 hours.
+7) User can Exchange different cryptocurrenices.
+8) user can also visit the website in any device as the website is Resposive and User-friendly.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
