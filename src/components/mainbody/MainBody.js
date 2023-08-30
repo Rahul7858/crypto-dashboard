@@ -13,7 +13,7 @@ export const MainBody = () => {
 
     //Mainbody content area...
     <div>
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-2 mx-3 py-3">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-4 gap-2 mx-3 py-3">
 
         <div  className="grid gap-2 lg:col-span-3">
 
