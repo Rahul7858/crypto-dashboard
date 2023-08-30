@@ -8,7 +8,7 @@ function App() {
   return (
 
     //This top level div contain navbar and mainbody div.....
-    <div className=" bg-slate-200 ">
+    <div className=" bg-slate-200">
 
       {/* This is navbar with an almabetter logo */}
       <div className='bg-white min-w-full drop-shadow-md p-3 h-12'>
@@ -18,7 +18,7 @@ function App() {
       </div>
 
       {/* This is the main body of crypto-dashboard */}
-      <div>
+      <div className=''>
         <MainBody />
       </div>
     </div>
