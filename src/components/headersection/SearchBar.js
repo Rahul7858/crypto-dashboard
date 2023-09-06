@@ -27,7 +27,7 @@ export const SearchBar = () => {
   return (
 
     //This top level div containing search bar and search filter...
-    <div className=' ml-3'>
+    <div className=''>
 
       {/* This form contains button and input */}
       <form onSubmit={(e) => e.preventDefault()}>

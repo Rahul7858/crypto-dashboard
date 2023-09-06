@@ -96,10 +96,6 @@ export const HorizontalBarChart = () => {
                         return symbol + numbersFormatter(value);
                     }
                 },
-                title: {
-                    display: true,
-                    text: `Price in ${symbol}`,
-                },
             },
         },
     };

@@ -22,11 +22,15 @@ export const MiddleSection = () => {
       <div className='flex justify-evenly flex-wrap'>
 
          {/* DaysSelector component placed in the daysSelector folder */}
-        <div className='mx-3'>
+        <div className=''>
           <DaysSelector />
         </div>
 
          {/* CoinDropDown component placed in the coindropdown folder */}
+
+         <div>
+          
+         </div>
         <div>
           <CoinDropDown />
         </div>

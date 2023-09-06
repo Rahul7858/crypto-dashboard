@@ -89,7 +89,7 @@ export const ExchangeCoin = () => {
 
     return (
         <div className='bg-white mt-1 rounded-lg shadow-md px-3 pb-1 w-full'>
-            <div className='flex justify-between items-center gap-2 w-full'>
+            <div className='flex flex-col md:flex-row lg:flex-row justify-between items-center gap-3 w-full'>
                 <div className='flex flex-col gap-2'>
                     <div className="p-4 font-bold">
                         <p>Exchange Coins</p>
@@ -126,15 +126,15 @@ export const ExchangeCoin = () => {
                     </div>
 
                 </div>
-                <div className='flex flex-col justify-center gap-2 pr-12'>
-                    <div className='font-semibold text-sm '>
+                <div className='flex flex-row md:flex-col lg:flex-col items-center justify-center gap-2 md:pr-12 lg:pr-12'>
+                    <div className='font-semibold text-md '>
                         <p>Enter Value :-</p>
                     </div>
                     <div className=''>
 
                         {/* This is input field for amount value */}
                         <input
-                            className='w-[100px] border-2 px-2 focus:outline-none rounded-md'
+                            className='w-[150px] md:w-[100px] lg:w-[100px] border-2 px-2 focus:outline-none rounded-md'
                             type='number'
                             value={inputValue}
                             onChange={changeHandler}

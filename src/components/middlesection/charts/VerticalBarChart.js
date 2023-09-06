@@ -96,10 +96,6 @@ export const VerticalBarChart = () => {
                         return symbol + numbersFormatter(value);
                     }
                 },
-                title: {
-                    display: true,
-                    text: `Price in ${symbol}`,
-                },
             }
         },
 

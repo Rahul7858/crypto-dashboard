@@ -13,26 +13,26 @@ export const MainBody = () => {
 
     //Mainbody content area...
     <div className=' bg-slate-200 '>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-4 gap-2 mx-3 py-3">
+      <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-2 mx-3 py-3">
 
-        <div  className="grid gap-2 lg:col-span-3">
+        <div  className="grid gap-2 lg:col-span-3 ">
 
           {/* There are two components in this div, which we have placed in the headersection folder */}
-          <div className="grid gap-1 grid-cols-9 grid-rows-1 md:mr-1">
+          <div className="flex gap-3 ">
 
             {/* CurrencyDropDown component placed in the headersection folder */}
-            <div className="col-span-1 w-full">
+            <div className="">
               <CurrencyDropDown />
             </div>
 
             {/* SearchBar component placed in the headersection folder */}
-            <div className=" grid col-span-8">
+            <div className="w-full ">
               <SearchBar />
             </div>
           </div>
 
           {/* MiddleSection component placed in the middlesection folder */}
-          <div className='bg-white rounded-lg overflow-hidden shadow-md md:mr-1'>
+          <div className='bg-white  rounded-lg overflow-hidden shadow-md md:mr-1'>
             <MiddleSection />
           </div>
 

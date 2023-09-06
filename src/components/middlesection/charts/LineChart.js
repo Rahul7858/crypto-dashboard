@@ -102,10 +102,6 @@ export const LineChart = () => {
                         return symbol + numbersFormatter(value);
                     }
                 },
-                title: {
-                    display: true,
-                    text: `Price in ${symbol}`,
-                },
             },
         },
     };

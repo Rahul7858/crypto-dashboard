@@ -92,7 +92,7 @@ export const Portfolio = () => {
             </div>
 
             {/* This is Pie chart */}
-            <div className="pl-9 flex items-center justify-center pt-4 pb-4 w-[350px]">
+            <div className="md:pl-9 lg:pl-9 pt-4 pb-10 w-[300px] ">
                 <Pie data={chartData} options={options} plugins={[ChartDataLabels]}></Pie>
             </div>
         </div>
